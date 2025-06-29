@@ -5,6 +5,12 @@
 Demonstration prepared for the [AGN SC 2025 meeting](https://agn.science.lsst.org/?q=meeting2025), Durham, 2025.
 This demo showcases working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.readthedocs.io/en/stable/), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
+### When and where:
+
+Monday 14, 12:30 - 12:50, OCW017 room - presentation
+Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided through notebooks)
+Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
+
 ### Main references
 
 * [Slide deck](TBD)

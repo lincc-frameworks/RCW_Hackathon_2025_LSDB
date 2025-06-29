@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/astronomy-commons/lsdb/main/docs/lincc-logo.png" width="300" height="100">
 
-Demonstration prepared for the [AGN SC 2025 meeting], Durham, 2025.
+Demonstration prepared for the [AGN SC 2025 meeting](https://agn.science.lsst.org/?q=meeting2025), Durham, 2025.
 This demo showcases working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.readthedocs.io/en/stable/), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
 ### Main references

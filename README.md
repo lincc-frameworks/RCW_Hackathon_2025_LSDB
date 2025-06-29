@@ -7,19 +7,17 @@ This demo showcases working with HATS-partitioned survey catalogs via [LSDB](htt
 
 ### When and where:
 
-Monday 14, 12:30 - 12:50, OCW017 room - presentation
-Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided through notebooks)
+Monday 14, 12:30 - 12:50, OCW017 room - presentation   
+Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided through notebooks)  
 Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 
 ### Main references
 
 * [Slide deck](TBD)
-* LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb)) 
-  ([on ReadTheDocs](https://lsdb.readthedocs.io/en/stable/))
-* HATS ([on GitHub](https://github.com/astronomy-commons/hats))
-  ([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
-* nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas)) 
-  ([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
+* LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
+  &nbsp;&nbsp;* [Working with Rubin data section](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)
+* HATS ([on GitHub](https://github.com/astronomy-commons/hats))([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
+* nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas))([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
 ## Getting Started 
 

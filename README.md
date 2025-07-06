@@ -35,13 +35,32 @@ If installing in your own hardware, create a virtual environment and install the
 
 ## Notebooks
 
-### [Notebook 1](TBD)
+### [Notebook 1](Notebook_1.ipynb)
 
 In this notebook we will learn how to:
 
 - Load object and source catalogs (lazily)
 - Perform crossmatching with existing `LSDB` catalogs
 - Save the results of a science workflow to disk
+
+### [Notebook 2](Notebook_2.ipynb)
+
+In this notebook we will learn how to:
+
+- What nested pandas is
+- Do basic operations on timeseries
+
+### [Notebook 3](Notebook_3.ipynb)
+
+In this notebook we will learn how to:
+
+- Open photo-z catalog
+
+### [Notebook 4](Notebook_4.ipynb)
+
+In this notebook we will learn how to:
+
+- Combine lessons from all of previous notebooks to do simple analysis 
 
 ## Acknowledgements
 

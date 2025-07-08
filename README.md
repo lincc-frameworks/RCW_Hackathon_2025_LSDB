@@ -21,17 +21,21 @@ Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 
 ## Getting Started 
 
-You can follow along with this demo by creating your own local environment.
+### On Rubin Science Platform
+
+Coming soon! 
 
 ### Local installation
-
+You can follow along with this demo by creating your own local environment.
 If installing in your own hardware, create a virtual environment and install the relevant packages:
 
 ```
->> conda create --name lincc python=3.12
->> conda activate lincc
+>> conda create --name linccF python=3.12
+>> conda activate linccF
 >> pip install lsdb
 ```
+
+Note that you will have to change the paths to the data to point to local copy of Rubin Data Preview 1 data. 
 
 ## Notebooks
 

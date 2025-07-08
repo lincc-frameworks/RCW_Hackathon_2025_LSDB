@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/astronomy-commons/lsdb/main/docs/lincc-logo.png" width="300" height="100">
 
 Demonstration prepared for the [AGN SC 2025 meeting](https://agn.science.lsst.org/?q=meeting2025), Durham, 2025.
-This demo showcases working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.readthedocs.io/en/stable/), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
+This demo showcases working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
 ### When and where:
 
@@ -14,7 +14,7 @@ Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 ### Main references
 
 * [Slide deck](TBD)
-* LSDB ([Main page](lsdb.io))([LSDB data](data.lsdb.io))([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
+* LSDB ([Main page](https://lsdb.io))([LSDB data](https://data.lsdb.io))([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
   &nbsp;&nbsp;* [Working with Rubin data section in LSDB documentation](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)
 * HATS ([on GitHub](https://github.com/astronomy-commons/hats))([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
 * nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas))([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))

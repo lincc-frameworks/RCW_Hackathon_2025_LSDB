@@ -61,9 +61,9 @@ In this notebook we will learn how to:
 
 In this notebook we will learn how to:
 
-- Crossmatch custom list with objects
+- Crossmatch custom list of positions with Objects and diaObjects
 - Apply a simple function (flux to magnitude)
-- Show lightcurves
+- Show lightcurves for both Objects and diaObjects
 
 - ### [Notebook 5](Notebook_5.ipynb)
 

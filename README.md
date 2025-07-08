@@ -43,7 +43,9 @@ Note that you will have to change the paths to the data to point to local copy o
 
 In this notebook we will learn how to:
 
+- Import DASK client
 - Load object and source catalogs (lazily)
+- Show HATS partitioning with ZTF objects and source
 - Perform crossmatching with existing `LSDB` catalogs
 - Save the results of a science workflow to disk
 
@@ -58,24 +60,23 @@ In this notebook we will learn how to:
 
 In this notebook we will learn how to:
 
-- Open photo-z catalog 
-- What is in the photo-z catalog and what methods were used
+- How to access photo-z catalog derived from Rubin’s Data Preview 1 with LSDB 
 
 ### [Notebook 4](Notebook_4.ipynb)
 
 In this notebook we will learn how to:
 
-- Crossmatch custom list of positions with Objects and diaObjects
-- Apply a simple function (flux to magnitude)
+- Crossmatch custom list of positions
+- How to access Object and diaObject data
 - Show lightcurves for both Objects and diaObjects
 
 - ### [Notebook 5](Notebook_5.ipynb)
 
-In this notebook we give few ideas for AGN work:
+In this notebook we provide several AGN-related problems:
 
-- Crossmatch SDSS AGNs with Rubin photo-z catalgo
+- Crossmatch SDSS AGNs with Rubin DP1 photo-z catalog
 - Crossmatch large catalog of AGN with Rubin DP1 data
-- Run scientific analysis on lightcurves
+- Run scientific analysis on lightcurves from Rubin DP1
 
 ## Acknowledgements
 

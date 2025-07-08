@@ -7,7 +7,7 @@ This demo showcases working with HATS-partitioned survey catalogs via [LSDB](htt
 
 ### When and where:
 
-Monday 14, 12:30 - 12:50, OCW017 room - presentation   
+Monday 14, 12:30 - 12:50, OCW017 room - [presentation](https://docs.google.com/presentation/d/1FnZF5o-ZdEKGN3tu5d2xakc2o_satLK7Dl4KNnFZeYg/)   
 Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided notebooks)  
 Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 

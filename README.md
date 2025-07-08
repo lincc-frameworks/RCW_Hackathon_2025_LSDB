@@ -70,7 +70,7 @@ In this notebook we will learn how to:
 - How to access Object and diaObject data
 - Show lightcurves for both Objects and diaObjects
 
-- ### [Notebook 5](Notebook_5.ipynb)
+### [Notebook 5](Notebook_5.ipynb)
 
 In this notebook we provide several AGN-related problems:
 

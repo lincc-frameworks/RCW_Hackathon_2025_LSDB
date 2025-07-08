@@ -8,7 +8,7 @@ This demo showcases working with HATS-partitioned survey catalogs via [LSDB](htt
 ### When and where:
 
 Monday 14, 12:30 - 12:50, OCW017 room - presentation   
-Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided through notebooks)  
+Monday 14, 14:00 - 15:40, OCW116 room - hackaton (guided notebooks)  
 Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 
 ### Main references
@@ -54,13 +54,24 @@ In this notebook we will learn how to:
 
 In this notebook we will learn how to:
 
-- Open photo-z catalog
+- Open photo-z catalog 
+- What is in the photo-z catalog and what methods were used
 
 ### [Notebook 4](Notebook_4.ipynb)
 
 In this notebook we will learn how to:
 
-- Combine lessons from all of previous notebooks to do simple analysis 
+- Crossmatch custom list with objects
+- Apply a simple function (flux to magnitude)
+- Show lightcurves
+
+- ### [Notebook 5](Notebook_5.ipynb)
+
+In this notebook we give few ideas for AGN work:
+
+- Crossmatch SDSS AGNs with Rubin photo-z catalgo
+- Crossmatch large catalog of AGN with Rubin DP1 data
+- Run scientific analysis on lightcurves
 
 ## Acknowledgements
 

@@ -40,8 +40,8 @@ You can follow along with this demo by creating your own local environment.
 If installing in your own hardware, create a virtual environment and install the relevant packages:
 
 ```
-conda create --name linccF python=3.12
-conda activate linccF
+conda create --name lsdb_env python=3.12
+conda activate lsdb_env
 pip install lsdb
 ```
 

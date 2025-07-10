@@ -35,6 +35,12 @@ lsdb.open_catalog('/rubin/lsdb_data/object_collection')
 lsdb.open_catalog('/rubin/lsdb_data/dia_object_collection')
 lsdb.open_catalog('/rubin/lsdb_data/object_photoz')
 ```
+
+If you want to keep your enviroment clean, at the end of the workshop, uninstall `LSDB` and any other packages you may have installed with appropriate commands like
+```
+%pip uninstall lsdb
+```
+
 ### Local installation
 You can follow along with this demo by creating your own local environment.
 If installing in your own hardware, create a virtual environment and install the relevant packages:

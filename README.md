@@ -29,6 +29,12 @@ Make sure that you have access to Rubin Science Platform and follow instructions
 >> %pip install lsdb
 ```
 
+After that you should be able to access:
+
+lsdb.open_catalog('/rubin/lsdb_data/object_collection')
+lsdb.open_catalog('/rubin/lsdb_data/dia_object_collection')
+lsdb.open_catalog('/rubin/lsdb_data/object_photoz')
+
 ### Local installation
 You can follow along with this demo by creating your own local environment.
 If installing in your own hardware, create a virtual environment and install the relevant packages:

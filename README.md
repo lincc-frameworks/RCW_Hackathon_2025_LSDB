@@ -26,23 +26,23 @@ Monday 14, 16:10 - 17:30, OCW116 room - hackaton (free coding)
 Make sure that you have access to Rubin Science Platform and follow instructions at [lsdb.io/dp1](https://lsdb.io/dp1). Note that LSDB data is still in soft launch phase so you have install `lsdb` package - e.g., by opening a notebook and running the following command (and restarting kernel after it):
 
 ```
->> %pip install lsdb
+%pip install lsdb
 ```
 
 After that you should be able to access:
-
+```
 lsdb.open_catalog('/rubin/lsdb_data/object_collection')
 lsdb.open_catalog('/rubin/lsdb_data/dia_object_collection')
 lsdb.open_catalog('/rubin/lsdb_data/object_photoz')
-
+```
 ### Local installation
 You can follow along with this demo by creating your own local environment.
 If installing in your own hardware, create a virtual environment and install the relevant packages:
 
 ```
->> conda create --name linccF python=3.12
->> conda activate linccF
->> pip install lsdb
+conda create --name linccF python=3.12
+conda activate linccF
+pip install lsdb
 ```
 
 Note that you will have to change the paths to the data to point to local copy of Rubin Data Preview 1 data. 

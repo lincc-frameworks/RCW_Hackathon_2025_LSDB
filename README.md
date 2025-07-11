@@ -36,14 +36,14 @@ lsdb.open_catalog('/rubin/lsdb_data/dia_object_collection')
 lsdb.open_catalog('/rubin/lsdb_data/object_photoz')
 ```
 
-If you want to keep your enviroment clean, at the end of the workshop, uninstall `LSDB` and any other packages you may have installed with appropriate commands like
+If you want to keep your environment clean, at the end of the workshop, uninstall `LSDB` and any other packages you may have installed with appropriate commands like
 ```
 %pip uninstall lsdb
 ```
 
 ### Local installation
 You can follow along with this demo by creating your own local environment.
-If installing in your own hardware, create a virtual environment and install the relevant packages:
+If installing on your own hardware, create a virtual environment and install the relevant packages:
 
 ```
 conda create --name lsdb_env python=3.12
@@ -51,7 +51,7 @@ conda activate lsdb_env
 pip install lsdb
 ```
 
-Note that you will have to change the paths to the data to point to local copy of Rubin Data Preview 1 data. 
+Note that you will have to change the paths to the data to point to a local copy of the Rubin Data Preview 1 data. 
 
 ## Notebooks
 

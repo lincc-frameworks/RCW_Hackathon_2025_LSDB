@@ -23,7 +23,7 @@ Monday 14, 16:10 - 17:30, OCW116 room - hackathon (free coding)
 
 ### On Rubin Science Platform
 
-Make sure that you have access to Rubin Science Platform and follow instructions at [lsdb.io/dp1](https://lsdb.io/dp1). Note that LSDB data is still in soft launch phase so you have install `lsdb` package - e.g., by opening a notebook and running the following command (and restarting kernel after it):
+Make sure that you have access to the Rubin Science Platform and follow the instructions at [lsdb.io/dp1](https://lsdb.io/dp1). Note that LSDB data is still in soft launch phase, so you have to install `lsdb` package - e.g., by opening a notebook and running the following command (and restarting the kernel after it):
 
 ```
 %pip install lsdb

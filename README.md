@@ -94,6 +94,10 @@ In this notebook, we provide several AGN-related problems:
 - Crossmatch a large catalog of AGN with Rubin DP1 data
 - Run scientific analysis on lightcurves from Rubin DP1
 
+## Getting help
+
+During hackathon (and after), post any questions to [#lincc-frameworks-lsdb channel](https://discovery-alliance.slack.com/archives/C04610PQW9F) on the Discovery Alliance Slack, that we will monitor extra well to help with any potential problems. See also our [Getting help](https://docs.lsdb.io/en/latest/contact.html) page.
+
 ## Acknowledgements
 
 This project is supported by Schmidt Sciences.

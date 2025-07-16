@@ -1,22 +1,45 @@
-# LSDB hackathon at the AGN Science Collaboration Meeting 2025
+# LSDB hackathon at the Rubin Community Workshop 2025
 
-<img src="https://raw.githubusercontent.com/astronomy-commons/lsdb/main/docs/lincc-logo.png" width="300" height="100">
+<img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> [![LINCC Frameworks](https://github.com/astronomy-commons/lsdb/blob/main/docs/lincc-logo.png)](https://lsstdiscoveryalliance.org/programs/lincc-frameworks/)
 
-Demos prepared for the [AGN SC 2025 meeting](https://agn.science.lsst.org/?q=meeting2025), Durham, 2025.
+Demos prepared for the LINCC Frameworks Hackathon at the Rubin Community Workshop, 2025, Tuscon
 The noteboooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
 ### When and where:
 
-Monday 14, 12:30 - 12:50, OCW017 room - [presentation](https://docs.google.com/presentation/d/1FnZF5o-ZdEKGN3tu5d2xakc2o_satLK7Dl4KNnFZeYg/)   
-Monday 14, 14:00 - 15:40, OCW116 room - hackathon (guided notebooks)  
-Monday 14, 16:10 - 17:30, OCW116 room - hackathon (free coding)
+**Sunday 27 July**
+
+* 9:00am – Hackathon Welcome (at NOIRLab; NOIRLab is a 15 minute walk from the Tucson Marriott University Park or 3 stops on the free Sun Tran light rail)
+* 9:30am – LINCC Frameworks Tutorials on LSDB and TDAstro
+* 12:30am – Plenary Pitch Session
+* 1:00pm – Hacking begins
+* 5:00pm – Pizza and sandwich dinner provided; teams may continue working if so desired
+
+**Monday 28 July**
+
+* 9:00am-10:00am – RCW Plenary #1 , at Tucson Marriott University Park; NOIRLab is a 15 minute walk or 3 stops on the free Sun Tran light rail
+* 10:30am – Plenary opening session, before hacking resumes
+* 4:00pm – Plenary Project Presentations
+* 5:00pm – Hackathon Close
+* 5:30pm-8:00pm – Casual Social for Hackathon participants
+
+### Event resources
+
+* [Website](https://lsstdiscoveryalliance.org/lincc-frameworks-workshops-and-hackathons/)
+* Slack channel
+  * We will utilize the `#lincc-frameworks-hack-july2025` channel on LSST-DA slack.
+* Pitches
+  * Craft your Project Pitch ideas and share them with the other hackathon participants. 
+  * Our [Pitch instructions PDF document](https://lsstcorg.sharepoint.com/:b:/g/ES_LXMmSL5VOtEh2ffiiAP8BIfJAFkVFpwfA61gI_OFMxA?e=yDORga) contains some Tips and FAQs and examples from the LF Team. 
+  * When you’re ready to share, add your ideas to the [Google Docs Pitches](https://docs.google.com/document/d/10n7OfOHEYK-n0500OzpuSuV92CsmgCHHkaAwS22xcYw/edit?usp=sharing). * We also encourage you to post your ideas on this `#lincc-frameworks-hack-july2025` channel and brainstorm on each other’s posts. If there are things the LINCC Frameworks team might also be able to do in advance to help your project, feel free to ask for that too!
+  * All documents we share with you will be available in this [Sharepoint Folder](https://lsstcorg.sharepoint.com/:f:/g/ErkRZva4HklFsmYtPW30P4gBJAD5_IgE4YyGn3g7crDMJw?e=iP5clb).
 
 ### Main references
 
 * [Slide deck](https://docs.google.com/presentation/d/1FnZF5o-ZdEKGN3tu5d2xakc2o_satLK7Dl4KNnFZeYg)
 * LSDB ([Main page](https://lsdb.io))([LSDB catalogs](https://data.lsdb.io))([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
-  &nbsp;&nbsp;* [Rubin Observatory DP1 documentation page for LSDB](https://dp1.lsst.io/products/lsdb.html)  
-  &nbsp;&nbsp;* [Working with Rubin data section in LSDB documentation](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)
+  * [Rubin Observatory DP1 documentation page for LSDB](https://dp1.lsst.io/products/lsdb.html)  
+  * [Working with Rubin data section in LSDB documentation](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)
 * HATS ([on GitHub](https://github.com/astronomy-commons/hats))([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
 * nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas))([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
@@ -30,33 +53,12 @@ Make sure that you have access to the Rubin Science Platform and follow the inst
 %pip install lsdb
 ```
 
-After that you should be able to access:
-```
-lsdb.open_catalog('/rubin/lsdb_data/object_collection')
-lsdb.open_catalog('/rubin/lsdb_data/dia_object_collection')
-lsdb.open_catalog('/rubin/lsdb_data/object_photoz')
-```
+For a complete guide to setting up an RSP account and getting LSDB available in
+your notebooks, we've put together a [system guide](/setup/) that you might find useful.
 
-If you want to keep your environment clean, at the end of the workshop, uninstall `LSDB` and any other packages you may have installed with appropriate commands like
-```
-%pip uninstall lsdb
-```
+## [Notebooks](/tutorials/)
 
-### Local installation
-You can follow along with this demo by creating your own local environment.
-If installing on your own hardware, create a virtual environment and install the relevant packages:
-
-```
-conda create --name lsdb_env python=3.12
-conda activate lsdb_env
-pip install lsdb
-```
-
-Note that you will have to change the paths to the data to point to a local copy of the Rubin Data Preview 1 data. 
-
-## Notebooks
-
-### [Notebook 1](Notebook_1.ipynb)
+### [Notebook 1](/tutorials/Notebook_1_Intro.ipynb)
 
 In this notebook, we will learn how to:
 
@@ -66,20 +68,20 @@ In this notebook, we will learn how to:
 - Perform crossmatching with existing `LSDB` catalogs
 - Save the results of a science workflow to disk
 
-### [Notebook 2](Notebook_2.ipynb)
+### [Notebook 2](/tutorials/Notebook_2_Intro.ipynb)
+
+In this notebook, we will learn:
+
+- How to access photo-z catalog derived from Rubin’s Data Preview 1 with LSDB 
+
+### [Notebook 3](/tutorials/Notebook_3_Intro.ipynb)
 
 In this notebook, we will learn:
 
 - What nested pandas is
 - How to do basic operations on timeseries
 
-### [Notebook 3](Notebook_3.ipynb)
-
-In this notebook, we will learn:
-
-- How to access photo-z catalog derived from Rubin’s Data Preview 1 with LSDB 
-
-### [Notebook 4](Notebook_4.ipynb)
+### [Notebook 4](/tutorials/Notebook_4_Intro.ipynb)
 
 In this notebook, we will learn how to:
 
@@ -87,17 +89,13 @@ In this notebook, we will learn how to:
 - Access Object and diaObject data from Rubin DP1
 - Show lightcurves for both Objects and diaObjects
 
-### [Notebook 5](Notebook_5.ipynb)
+### [Notebook 5](/tutorials/Notebook_5_Intro.ipynb)
 
 In this notebook, we provide several AGN-related problems:
 
 - Crossmatch SDSS AGNs with Rubin DP1 photo-z catalog
 - Crossmatch a large catalog of AGN with Rubin DP1 data
 - Run scientific analysis on lightcurves from Rubin DP1
-
-## Getting help
-
-During hackathon (and after), post any questions to [#lincc-frameworks-lsdb channel](https://discovery-alliance.slack.com/archives/C04610PQW9F) on the Discovery Alliance Slack, that we will monitor extra well to help with any potential problems. See also our [Getting help](https://docs.lsdb.io/en/latest/contact.html) page.
 
 ## Acknowledgements
 

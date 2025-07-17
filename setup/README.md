@@ -48,7 +48,7 @@ https://rsp.lsst.io/guides/getting-started/get-an-account
 * Copy/paste the following command into the terminal to fetch this repository:
 
 ```
-$ git clone http://github.dev/lincc-frameworks/RCW_Hackathon_2025_LSDB
+$ git clone http://github.com/lincc-frameworks/RCW_Hackathon_2025_LSDB
 ```
 
 * This will be cloned into your user home directory. However, the home 

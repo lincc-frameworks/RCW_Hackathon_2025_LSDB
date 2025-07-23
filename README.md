@@ -36,7 +36,7 @@ The noteboooks showcase working with HATS-partitioned survey catalogs via [LSDB]
 
 ### Main references
 
-* [Slide deck](https://docs.google.com/presentation/d/1FnZF5o-ZdEKGN3tu5d2xakc2o_satLK7Dl4KNnFZeYg)
+* [Slide deck](https://docs.google.com/presentation/d/1tMBa8964guyaf0DGVZ7NsE2ox6TAkOcITgaTj4gPXWw)
 * LSDB ([Main page](https://lsdb.io))([LSDB catalogs](https://data.lsdb.io))([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
   * [Rubin Observatory DP1 documentation page for LSDB](https://dp1.lsst.io/products/lsdb.html)  
   * [Working with Rubin data section in LSDB documentation](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)

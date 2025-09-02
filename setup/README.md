@@ -15,7 +15,7 @@ event. If your identity cannot be confirmed via your institution, please use a G
 or an ORCID account to request access.
 Instructions to set up an account are available at : 
 
-https://rsp.lsst.io/guides/getting-started/get-an-account
+https://rsp.lsst.io/guides/getting-started/get-an-account.html
 
 ## Start your server
 
